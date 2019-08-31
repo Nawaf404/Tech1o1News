@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}    
+main{
+    background-image: url('NewFont.png');
+    height: 490px; /* 490px*/
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 3em;
+    font-weight: lighter;
+    font-size: 15px; 
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+.btn{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 25px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-full{
+    background-color: transparent;
+    color: #bf55ec;
+    padding: left 15px right 15px;
+    margin-right: 15px;
+    border: 1px solid #bf55ec;
+
+}
+.btn-full:hover{
+    background-color: #fff;
+}
+.btn-nav{
+background-color: transparent;
+color: #fff;
+border: 1px solid #fff;
+}
+.btn-nav:hover{
+    background-color: #9b59b6;
+}
+/*#welomeToTechCampus{
+    color: white;
+    text-align: center;*/
+
+.changeColor{
+    animation:  colorchangeTechCampus 2s infinite;
+}
+@keyframes colorchangeTechCampus {
+    0% {color: cyan;}
+    25% {color: red;}
+    50% {color: #bf55ec;}
+    75% {color: goldenrod;}
+    100%{color: rgb(214, 206, 206);}
+}
+#Header{
+    background-color: whitesmoke;
+    height: 80px;
+}
+#logo{
+        height: 65px; /* 70 */
+        padding-top: 10px;
+        margin-right: 120px;
+        width: auto;
+        float: right;
+        margin-top: 0.5px;
+        
+}
+#logo2{
+    height: 60px; /* 70 */
+    padding-top: 20px;
+    margin-right: 70px;
+    width: auto;
+    float: right;
+    margin-top: 0.5px;
+}
+#logo3{
+   /* height: 65px;  70 */
+    padding-top: 25px;
+    margin-right: 11px;
+    width: auto;
+    float: right;
+    margin-top: 0.5px;
+}
+#logo:hover{
+    border: solid 3px purple;
+    padding-top: 15px; 
+}
+#fontColor{
+    color: black;
+    margin-left: 50px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-left: 14px; 
+    margin-top: 25px; /* 30 */
+
+}
+a{
+    text-decoration: none;
+    color:rgb(27, 26, 26);
+
+}
+
+a:hover{
+    border: 2px solid goldenrod;
+    color: orange;
+}
+a button {
+    float: left;
+    margin-left: 115px; /*64px*/
+   /* margin-top: 25px; /* 25px */
+    width: 105px;
+    font-size: 12px;
+   /* border-radius: 4rem;*/
+   background-image: -webkit-linear-gradient(top, #6ba8de, #9193e8);
+   padding: 6px 13px!important; /* 8px 15px*/
+   color: #fff !important;
+   border-radius: 25px;
+   margin-top: 23px !important;
+   border: none;
+}
+a button:hover{
+    background-image: -webkit-linear-gradient(top, goldenrod,black);
+    border: solid 2px black;
+}
+nav{
+    margin-left: 320px; /* 260 */
+}
+ul{
+    float: left;
+    margin-right: 90px; /* 90px */
+    /*padding-top: 50px;
+    margin-left: 94px;    */
+
+}
+#slide-right{
+    padding-left: 10px; 
+    float: right;
+    background-color: rgb(223, 217, 217);
+    height: 660px;
+    width: 25%;
+    font-size: 16px;    
+}
+a .slide-left li{
+    color: white;
+    border: none;
+    list-style: circle;
+    float: left;
+}
+a .slide-left li:hover{
+    color: aqua;
+}
+
+.changeMove{
+    text-align: center;
+    padding-top: 110px;
+    animation:  colormoveTechCampus 2s infinite;
+    }
+    @keyframes colormoveTechCampus {
+        0% {color: cyan;}
+        25% {color: red;}
+        50% {color: #bf55ec;}
+        75% {color: goldenrod;}
+        100%{color: rgb(214, 206, 206);}
+}
+.WhoIs{
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+#WhatsOffer{
+    padding-left: 50px;
+}
+.BCenter{
+    padding-left: 500px;
+    border-style: none;
+}
+.ButtonEnroll{
+    padding-left: 11px;
+}
+#TextOne{
+    line-height: 2em;
+    float: left;
+    padding-left: 25px;
+}
+#TextTwo{
+    padding-top: 3px;
+    float: right;
+    padding-right: 140px;
+}
+#Text{
+    text-align: center;
+    width: 600px;
+    height: 220px;
+    padding-right: 1px;
+    font-size: 24px;
+    padding-top: 30px; 
+    color: red;
+}
+#CyberLogo{
+    background-color: black;
+    height: auto;
+    height: auto;
+}
+#PythonLogo{
+    background-color: greenyellow;
+    height: 300px;
+    width: 250px;
+}
+#iOSlogo{
+    background-color: orange;
+    height: 300px;
+    width: 250px;
+}
+#NSA{
+    background-color: #9b59b6;
+    height: 300px;
+    width: 250px;
+}
+#PC{
+    background-color: rgba(43, 6, 128, 0.829);
+    height: 300x;
+    width: 550px;
+}
+#Msg{
+    text-align: center;
+    font-size: 10px;
+    color: red;
+}
+#Move{
+    animation:  colormoverTechCampus 2s infinite;
+}
+@keyframes colormoverTechCampus {
+    0% {color: cyan;}
+    25% {color: red;}
+    50% {color: #bf55ec;}
+    75% {color: goldenrod;}
+    100%{color: rgb(104, 2, 2);}
+}
+
+#Courses{
+    text-align: center;
+    float: left;
+    padding-top: 70px;
+    padding-left: 2px;
+
+}
+#Read{
+    margin-left: 520px; 
+    text-align: center;
+    background-color: rgb(241, 241, 21);
+    width: 300px;
+    border-radius: 3rem;
+
+}
+#inCen{
+    padding-left: 5px; 
+    float: left;
+    background-color: rgb(223, 217, 217);
+    height: 660px;
+    width: 25%;
+    font-size: 16px;
+    list-style: circle;
+}
+#inCen li{
+    color: white;
+}
+/*.Movies{
+    text-align: center;
+    width: 45%;
+    height: 200px;
+*/
+#MiniLog{
+    padding-top: 25px;
+}
+ul .SLC li{
+    color: white;
+}
+section {
+    color: white;
+}
+
+.slide-left{
+    padding: 55px; 
+    float: left;
+    background-color: rgb(224, 212, 212);
+    width: 25%;
+    height: 25%;
+}
+.slide-left ul{
+    float: left;
+    font-size: 15px;
+}
+.slide-right{
+    float: right;
+}
+
+#Footer{
+    background-color: cyan;
+    width: 500px;
+    height: 200px;
+}
