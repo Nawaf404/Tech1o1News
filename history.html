@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#slide-right{
+    padding-left: 10px; 
+    float: right;
+    background-color: rgb(187, 182, 182);
+    height: 660px;
+    width: 25%;
+    font-size: 16px;  
+    list-style: none;  
+}
+a .slide-left li{
+    color: white;
+    border: none;
+    list-style: none;
+    float: left;
+}
+a .slide-left li:hover{
+    color: aqua;
+}
+#inCen{
+    padding-left: 5px; 
+    float: left;
+    background-color: rgb(187, 182, 182);
+    height: 660px;
+    width: 25%;
+    font-size: 16px;
+    list-style: circle;
+}
+#inCen li{
+    color: white;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="Tech1o1.html"><i class="fa fa-home"></i></a> 
+  <a href="https://google.com"><i class="fa fa-search"></i></a> 
+  <a href="https://twitter.com/skoiiiz"><i class="fa fa-envelope"></i></a> 
+  <a href="https://techcampus.com"><i class="fa fa-globe"></i></a>
+  <a href="time.html"><i class="fa fa-trash"></i></a> 
+</div>
+<div id="inCen">
+        <h2>Courses <h4 id="demo" onclick="myFunction()"> U Can learn from it</h4></h2>
+            <!--CTF Number : 5298465 , Good Luck :) -->
+            <ul>
+            <li style="color: white;"><a href="https://techcampus.com/bootcamp?python">Python BootCamp</a></li>
+            <li><a href="https://www.youtube.com/watch?v=c9559JVpFV4&list=PLPTNqXpQ2tbjunLB8MwBrGQFrm2qsTq3P">Course Html & CSS ( AR )</a></li>
+            <li><a href="https://www.edx.org/course/cs50-introduction-computer-science-harvard-cs50x">Course CS50 from <strong style="color: red">Harvard</strong></a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLF8OvnCBlEY3a1pbPrE6fvNuV3qi-6KRf">Data Structure && <strong style="color: mediumblue"></strong>Algorithms</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLF8OvnCBlEY2w-zdVPozupapiKzLzpyUZ">Course Kotlin - <strong style="color: green">Android Studio</strong></a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLF8OvnCBlEY1BC20Bl73DuyW3LE5sGCUH">Course<strong style="color: cyan"> iOS</strong></a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=z1FdInL8sjg&list=PLCInYL3l2AajFAiw4s1U4QbGszcQ-rAb3">Course <strong style="color: purple">C++</strong></a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=0h_YeQwHAT0&list=PLdZYzC8fohEIpOvuXVDE0U00FDVGaUEOn">Course <strong style="color: darkorange">Python</strong></a></li><br>
+            <li><a href="https://www.youtube.com/watch?v=x6XGVRgRW9I&list=PL00vGmHQqFRZqPDjK5yBaxdhoPdsJxs90">Course <strong style="color: darkred">Cyper Hacker Certified</strong></a></li><br>
+            <br>
+            <button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+    
+            </ul>
+    </div>
+    
+    <div id="slide-right">
+        <h2>Websites and Books <h4 id="demo2" onclick="myFunction2()">U Can review on it and Learn</h4></h2>
+        <ul>
+            <li><a href="https://stackoverflow.com"><strong style="color: orange">StackOverFlow</strong></a></li><br>
+            <li><a href="https://w3schools.com"><strong style="color: green">W3schools </strong></a></li><br>
+            <li><a href="https://edx.org"><strong style="color: blue">Edx </strong></a></li><br>
+            <li><a href="https://chc-course.com"><strong style="color: red">CHC - Course</strong></a></li><br>
+            <li><a href="https://techcampus.com"><strong style="color: rgb(235, 28, 114)">TechCampus</strong></a></li><br>
+            <li><a href="https://udacity.com/mena/one-million-arab-coders/"><strong style="color: cyan">One Million arab Coders</strong></a></li><br>
+            <li><a href="crypto101.io"><strong style="color: purple">Book Crypto :) </strong></a></li><br>
+            <li><a href="http://111000.net/systems/files/The_Linux_Command_Line-arabic-14.07.pdf"><strong style="color: dodgerblue">Books Kali Linux (Arabic)</strong></a></li><br>
+            <li><a href="https://sourceforge.net/projects/omlx/files/open%20books/1.0/learn_python3.pdf/download"><strong style="color:indigo">Book Python 3 :)</strong></a></li><br>
+        </ul>
+        </div>
+</body>
+<script>
+function myFunction() {
+        document.getElementById("demo").style.color = "red";
+        }
+        function myFunction2() {
+        document.getElementById("demo2").style.color = "cyan";
+        }
+        </script>
+</html> 
